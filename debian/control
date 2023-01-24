@@ -1,0 +1,12 @@
+Source: ros-noetic-rviz-tool-path-display
+Section: misc
+Priority: optional
+Maintainer: Michael Ripperger <michael.ripperger@swri.org>
+Build-Depends: debhelper (>= 9.0.0), libqt5widgets5, qtbase5-dev, ros-noetic-catkin, ros-noetic-pluginlib, ros-noetic-rviz
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-rviz-tool-path-display
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5widgets5, ros-noetic-pluginlib, ros-noetic-rviz
+Description: The rviz_tool_path_display package
